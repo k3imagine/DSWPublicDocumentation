@@ -1,0 +1,161 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#forkme_banner {
+  display: none;
+}
+
+.service{
+    white-space: normal;
+    background-color: slateblue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 14px;
+    font-size: 0.8em;
+}
+.bug{
+    white-space: normal;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 14px;
+    font-size: 0.8em;
+}
+.new{
+    white-space: normal;
+    background-color: #ffefd2;
+    border: none;
+    color: #67625a;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 14px;
+    font-size: 0.8em;
+}
+.debt{
+    white-space: normal;
+    background-color: #90dfd6;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 14px;
+    font-size: 0.8em;
+}
+.task{
+    white-space: normal;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 14px;
+    font-size: 0.8em;
+}
+.ticket{
+    font-size: 0.8em;
+    color: grey;
+    font-style: normal;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .imagine-logo{
+    border: none;
+    -webkit-box-shadow: none;
+    max-width: 320px !important;
+    max-height: 140px !important;
+  }
+  #subscribeBtn{
+    white-space: normal;
+    background-color: #353535;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 14px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 1em;
+  }
+  .modal-iframe{
+    width: 100%;
+    min-height: 580px;
+  }
+  #project_tagline{
+      padding-left:0.8em;
+  }
+  #header_wrap{
+    background: linear-gradient(to top, #1e1e1e, #1e1e1e);
+    background-color: #1e1e1e;
+  }
+
+.breaking-change{
+    background-color: #fff3cd;
+    color: #664d03;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    border-color: #ffecb5;
+}
+.breaking-change p a{
+    color: #664d03;
+}
