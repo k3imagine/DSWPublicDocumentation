@@ -2,6 +2,12 @@
 
 ##### VAT is showing incorrectly on receipts where transactions which have multiple Items with 0% and another Vat Rate eg 20% <span class="ticket">IM-13313</span>  
  Fixed issue where VAT was showing incorrectly in receipts  
+  
+ <div class="breaking-change"><p>This change requires a connector reboot for the changes to take affect.</p></div> 
+<span class="bug">Bug</span> <span class="service">Connector</span> <span class="service">POS</span>  
+  
+##### VAT is showing incorrectly on receipts where transactions which have multiple Items with 0% and another Vat Rate eg 20% <span class="ticket">IM-13313</span>  
+ Fixed issue where VAT was showing incorrectly in receipts  
   <span class="bug">Bug</span> <span class="service">Connector</span> <span class="service">POS</span>  
   
 ##### VAT is showing incorrectly on receipts where transactions which have multiple Items with 0% and another Vat Rate eg 20% <span class="ticket">IM-13313</span>  
