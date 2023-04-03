@@ -1,5 +1,9 @@
 # RELEASE VERSION: 3rd April 2023
 
+##### DSW: Flow not shown in process monitor when error on initial step and started from Event <span class="ticket">IPE-3462</span>  
+ Fixed the issue on flow not logged in process monitor when triggered from an event and an error on the initial step   
+  <span class="bug">Bug</span> <span class="service">Job Manager</span>  
+  
 ##### DSW: File Transfer worker doesn't recover after Redis connection failure <span class="ticket">IPE-2878</span>  
  Fixed the issue on Remote File Transfer which doesn't work after Redis connection failure   
   <span class="bug">Bug</span> <span class="service">File Center</span>  
