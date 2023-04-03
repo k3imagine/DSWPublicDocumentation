@@ -1,3 +1,9 @@
+# RELEASE VERSION: 3rd April 2023
+
+##### DSW: File Transfer worker doesn't recover after Redis connection failure <span class="ticket">IPE-2878</span>  
+ Fixed the issue on Remote File Transfer which doesn't work after Redis connection failure   
+  <span class="bug">Bug</span> <span class="service">File Center</span>  
+  
 # RELEASE VERSION: 20th March 2023
 
 ##### Use V8 (v8.dev) in JS Engine <span class="ticket">IPE-3605</span>  
